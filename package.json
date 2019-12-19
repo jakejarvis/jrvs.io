@@ -1,0 +1,25 @@
+{
+  "name": "go.jarv.is",
+  "version": "1.0.0",
+  "author": "Jake Jarvis <jake@jarv.is>",
+  "description": "@jakejarvis's link shortener",
+  "homepage": "https://go.jarv.is/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakejarvis/go.jarv.is.git"
+  },
+  "main": "cli.js",
+  "bin": {
+    "shorten": "cli.js"
+  },
+  "scripts": {
+    "shorten": "netlify-shortener",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "netlify-shortener": "^1.0.4"
+  },
+  "baseUrl": "https://go.jarv.is"
+}
