@@ -1,3 +1,14 @@
 # [go.jarv.is](https://go.jarv.is/)
 
-Personal link shortener powered by [@kentcdodds](https://github.com/kentcdodds)'s elegant [netlify-shortener](https://github.com/kentcdodds/netlify-shortener).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6c1d7761-137b-40e8-b93a-1f6b06430e38/deploy-status)](https://app.netlify.com/sites/jovial-gates-ad3991/deploys)
+
+Personal link shortener powered by [@kentcdodds](https://github.com/kentcdodds)' elegant [netlify-shortener](https://github.com/kentcdodds/netlify-shortener).
+
+```bash
+npm run shorten https://github.com/jakejarvis gh-profile
+```
+
+
+## License
+
+This project is distributed under the MIT license.

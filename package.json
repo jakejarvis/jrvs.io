@@ -4,12 +4,13 @@
   "author": "Jake Jarvis <jake@jarv.is>",
   "description": "@jakejarvis's link shortener",
   "homepage": "https://go.jarv.is/",
+  "private": true,
   "license": "MIT",
+  "main": "cli.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jakejarvis/go.jarv.is.git"
   },
-  "main": "cli.js",
   "bin": {
     "shorten": "cli.js"
   },
