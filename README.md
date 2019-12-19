@@ -4,6 +4,15 @@
 
 Personal link shortener powered by [@kentcdodds](https://kentcdodds.com/)'s elegant [netlify-shortener](https://github.com/kentcdodds/netlify-shortener).
 
+
+## Usage
+
+### View existing shortcodes:
+
+[See `_redirects`.](_redirects)
+
+### Create new shortcode:
+
 ```bash
 npm run shorten https://github.com/jakejarvis gh-profile
 ```
