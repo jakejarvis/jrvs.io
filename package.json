@@ -20,7 +20,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "netlify-shortener": "^1.0.4"
+    "netlify-shortener": "^2.1.0"
   },
   "baseUrl": "https://go.jarv.is"
 }
