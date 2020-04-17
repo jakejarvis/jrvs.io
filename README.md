@@ -1,4 +1,4 @@
-# [go.jarv.is](https://go.jarv.is/) 👉
+# [jrvs.io](https://jrvs.io/) 🔗
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6c1d7761-137b-40e8-b93a-1f6b06430e38/deploy-status)](https://app.netlify.com/sites/jovial-gates-ad3991/deploys)
 

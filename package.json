@@ -22,5 +22,5 @@
   "devDependencies": {
     "netlify-shortener": "^2.1.1"
   },
-  "baseUrl": "https://go.jarv.is"
+  "baseUrl": "https://jrvs.io"
 }
