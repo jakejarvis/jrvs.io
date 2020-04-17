@@ -1,2 +1,4 @@
 /*
   X-Robots-Tag: noindex, nofollow
+  Content-Security-Policy: default-src 'none';
+  Referrer-Policy: origin
