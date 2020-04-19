@@ -2,7 +2,7 @@
 
 [[redirects]]
   from = "/"
-  to = "https://jarv.is/"
+  to = "https://jarv.is/?utm_source=jrvs"
   status = 301
   force = true
 
