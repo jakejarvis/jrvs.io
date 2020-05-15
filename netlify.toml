@@ -1,43 +1,38 @@
 # redirect root to jarv.is
-
 [[redirects]]
   from = "/"
-  to = "https://jarv.is/?utm_source=jrvs"
+  to = "https://jarv.is/?utm_source=jrvs.io"
   status = 301
   force = true
 
 # block miscellaneous files in this repo by returning 404s. stupid way of doing
 # this, but netlify.toml doesn't support glob paths like we'd want it to:
 #
-# https://community.netlify.com/t/immutable-images-how-do-i-specify-paths-for-all-images-in-directory-tree-in-headers/10583/4
+#   https://community.netlify.com/t/immutable-images-how-do-i-specify-paths-for-all-images-in-directory-tree-in-headers/10583/4
 #
 # ...and netlify-shortener doesn't support placing _redirects in a subdirectory.
+#
 # TODO: submit a PR to do so. :)
-
 [[redirects]]
   from = "package.json"
   to = "/404.html"
   status = 404
   force = true
-
 [[redirects]]
   from = "package-lock.json"
   to = "/404.html"
   status = 404
   force = true
-
 [[redirects]]
   from = "cli.js"
   to = "/404.html"
   status = 404
   force = true
-
 [[redirects]]
   from = "README.md"
   to = "/404.html"
   status = 404
   force = true
-
 [[redirects]]
   from = "LICENSE.md"
   to = "/404.html"
