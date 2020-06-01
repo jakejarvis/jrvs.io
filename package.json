@@ -20,7 +20,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "netlify-shortener": "^2.2.0"
+    "netlify-shortener": "^2.2.1"
   },
   "baseUrl": "https://jrvs.io"
 }
