@@ -1,15 +1,15 @@
 {
-  "name": "go.jarv.is",
+  "name": "jrvs.io",
   "version": "1.0.0",
   "author": "Jake Jarvis <jake@jarv.is>",
   "description": "@jakejarvis's link shortener",
-  "homepage": "https://go.jarv.is/",
+  "homepage": "https://jrvs.io/",
   "private": true,
   "license": "MIT",
   "main": "cli.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jakejarvis/go.jarv.is.git"
+    "url": "git+https://github.com/jakejarvis/jrvs.io.git"
   },
   "bin": {
     "shorten": "cli.js"
