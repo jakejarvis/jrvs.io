@@ -1,7 +1,7 @@
 # redirect root to jarv.is
 [[redirects]]
   from = "/"
-  to = "https://jarv.is/?utm_source=jrvs.io"
+  to = "https://jarv.is/"
   status = 301
   force = true
 
