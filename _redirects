@@ -45,6 +45,6 @@
 /git                   https://github.com/jakejarvis
 /facebook              https://www.facebook.com/jakejarvis
 /twitter               https://twitter.com/jakejarvis
-/*.js                  /            200
-/*.json                /            200
-/*.md                  /            200
+/*.js                  /
+/*.json                /
+/*.md                  /
