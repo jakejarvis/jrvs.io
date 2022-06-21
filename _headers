@@ -1,4 +1,5 @@
 /*
-  X-Robots-Tag: noindex, nofollow
+  X-Robots-Tag: noindex
   Content-Security-Policy: default-src 'none';
-  Referrer-Policy: origin
+  Referrer-Policy: no-referrer
+  x-got-milk: 2%
