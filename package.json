@@ -16,7 +16,7 @@
   },
   "scripts": {
     "shorten": "netlify-shortener",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "mkdir dist && cp _headers _redirects robots.txt favicon.ico dist"
   },
   "dependencies": {},
   "devDependencies": {
