@@ -1,25 +1,16 @@
 {
-  "name": "jrvs.io",
-  "version": "1.0.0",
-  "author": "Jake Jarvis <jake@jarv.is>",
-  "description": "@jakejarvis's link shortener",
-  "homepage": "https://jrvs.io",
   "private": true,
-  "license": "MIT",
   "main": "cli.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jakejarvis/jrvs.io.git"
-  },
   "bin": {
     "shorten": "cli.js"
   },
   "scripts": {
     "shorten": "netlify-shortener",
-    "build": "mkdir dist && cp _headers _redirects robots.txt favicon.ico dist"
+    "build": "cpy _headers _redirects 404.html robots.txt favicon.ico dist"
   },
   "dependencies": {},
   "devDependencies": {
+    "cpy-cli": "^4.1.0",
     "netlify-shortener": "*"
   }
 }
