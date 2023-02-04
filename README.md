@@ -1,25 +1,33 @@
-# [jrvs.io](https://jrvs.io/) 🔗
+# 🔗 [jrvs.io](https://jrvs.io/)
 
-Personal link shortener powered by [@kentcdodds](https://kentcdodds.com/)'s clever [`netlify-shortener`](https://github.com/kentcdodds/netlify-shortener) (but deployed on [Cloudflare Pages](https://pages.cloudflare.com/)).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6c1d7761-137b-40e8-b93a-1f6b06430e38/deploy-status)](https://app.netlify.com/sites/jrvs/deploys)
+
+Personal link shortener powered by Netlify and a caveman-esque shell script.
 
 ## Usage
 
-### View existing shortcodes:
-
-[See `_redirects`.](_redirects)
-
-### Create a new shortcode:
+### Create a new shortlink
 
 ```bash
-npm run shorten https://github.com/jakejarvis gh
+./short.sh https://github.com/jakejarvis git
 ```
 
-or:
+🪄 [https://jrvs.io/git](https://jrvs.io/git) now points to [https://github.com/jakejarvis](https://github.com/jakejarvis)!
+
+#### Shell function
+
+Adding this function to `.bashrc`, `.zshrc`, etc. lets us run `short` from anywhere.
 
 ```bash
-npm link   # run once to set up
-shorten https://github.com/jakejarvis gh
+short() {
+  # parentheses let us cd to this directory without changing our current working directory
+  ( cd <LOCAL_PATH_TO_THIS_REPO> && bash -c "./short.sh $*" )
+}
 ```
+
+### View existing shortlinks
+
+See [`src/_redirects`](src/_redirects).
 
 ## License
 
